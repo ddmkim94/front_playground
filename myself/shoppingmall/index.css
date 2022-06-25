@@ -1,0 +1,78 @@
+/* import google font! */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: darkslategrey;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.menu-box > .btn {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-box > .btn-blue {
+  background-color: #4374d9;
+}
+
+.menu-box > .btn-yellow {
+  background-color: #ffe400;
+}
+
+.menu-box > .btn-pink {
+  background-color: #ffb2d9;
+}
+
+.item-box {
+  margin-top: 50px;
+  border-radius: 5px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.item-box > .item {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: #ffffff;
+}
+
+.item-box > .item > .icon {
+  margin-right: 20px;
+}
+
+.item-box > .item > .item-text {
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
