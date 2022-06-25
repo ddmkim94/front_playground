@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>1차 메뉴 만들기</title>
+    <style>
+      /*
+        Normalize.css는 HTML 요소의 기본 스타일을 브라우저 간 일관성을 유지하도록 돕는 CSS 파일
+       */
+      body,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+        color: inherit; /* 글자색은 부모의 속성을 상속 */
+      }
+      /* 노멀라이즈 끝! */
+
+      .menu-box {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .menu-box > ul {
+        display: inline-block;
+        background-color: pink;
+        padding: 0 20px;
+        border-radius: 5px;
+      }
+
+      .menu-box > ul > li {
+        cursor: pointer;
+        display: inline-block;
+        width: 200px;
+      }
+
+      .menu-box > ul > li > a {
+        font-weight: bold;
+        display: block;
+        padding: 20px;
+      }
+
+      .menu-box > ul > li:hover > a {
+        background-color: cadetblue;
+        color: white;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <nav class="menu-box">
+      <ul>
+        <li><a href="#">1차 메뉴 1</a></li>
+        <li><a href="#">1차 메뉴 2</a></li>
+        <li><a href="#">1차 메뉴 3</a></li>
+      </ul>
+    </nav>
+  </body>
 </html>
