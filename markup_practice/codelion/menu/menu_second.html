@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2차 메뉴 만들기</title>
+    <style>
+      body,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .menu-box-1 {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .menu-box-1 ul {
+        background-color: pink;
+      }
+
+      .menu-box-1 > ul {
+        display: inline-block;
+        /* background-color: pink; [Feedback: 속성 중복됨!] */
+        border-radius: 5px;
+        padding: 0 20px;
+      }
+
+      .menu-box-1 > ul > li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        width: 200px;
+      }
+
+      .menu-box-1 ul > li > a {
+        display: block;
+        padding: 20px;
+        font-weight: bold;
+      }
+
+      .menu-box-1 ul > li:hover > a {
+        background-color: cornflowerblue;
+        color: white;
+        /* font-weight: bold; [Feedback: 속성 중복됨!]*/
+      }
+
+      .menu-box-1 > ul > li > ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+
+      .menu-box-1 > ul > li:hover > ul {
+        display: block;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="menu-box-1">
+      <ul>
+        <li>
+          <a href="#">1차메뉴 1</a>
+          <ul>
+            <li><a href="#">2차메뉴 1</a></li>
+            <li><a href="#">2차메뉴 2</a></li>
+            <li><a href="#">2차메뉴 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">1차메뉴 2</a>
+          <ul>
+            <li><a href="#">2차메뉴 1</a></li>
+            <li><a href="#">2차메뉴 2</a></li>
+            <li><a href="#">2차메뉴 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">1차메뉴 3</a>
+          <ul>
+            <li><a href="#">2차메뉴 1</a></li>
+            <li><a href="#">2차메뉴 2</a></li>
+            <li><a href="#">2차메뉴 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
