@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>쇼핑몰 템플릿</title>
+    <title>shopping mall</title>
     <script defer src="index.js"></script>
     <script defer src="items.json"></script>
     <link rel="stylesheet" href="index.css" />
@@ -13,12 +13,27 @@
     <div class="container">
       <img src="imgs/logo.png" alt="logo" />
       <div class="menu-box">
-        <img src="imgs/blue_t.png" alt="blue-shirts" class="icon" />
-        <img src="imgs/blue_p.png" alt="blue-pants" class="icon" />
-        <img src="imgs/blue_s.png" alt="blue-skirt" class="icon" />
-        <button class="btn btn-blue">Blue</button>
-        <button class="btn btn-yellow">Yellow</button>
-        <button class="btn btn-pink">Pink</button>
+        <img
+          data-type="t-shirt"
+          src="imgs/blue_t.png"
+          alt="blue-shirts"
+          class="icon"
+        />
+        <img
+          data-type="t-shirt"
+          src="imgs/blue_p.png"
+          alt="blue-pants"
+          class="icon"
+        />
+        <img
+          data-type="t-shirt"
+          src="imgs/blue_s.png"
+          alt="blue-skirt"
+          class="icon"
+        />
+        <button data-type="blue" class="btn btn-blue">Blue</button>
+        <button data-type="yellow" class="btn btn-yellow">Yellow</button>
+        <button data-type="pink" class="btn btn-pink">Pink</button>
       </div>
 
       <!-- 상품 목록이 나오는 영역 -->
