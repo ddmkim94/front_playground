@@ -4,91 +4,121 @@
       "gender": "female",
       "size": "small",
       "url": "imgs/blue_s.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "blue"
     },
     {
       "gender": "male",
       "size": "large",
       "url": "imgs/yellow_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "pants",
+      "color": "yellow"
     },
     {
       "gender": "male",
       "size": "medium",
       "url": "imgs/pink_t.png",
-      "price": 10000
+      "price": 10000,
+      "type": "t-shirt",
+      "color": "pink"
     },
     {
       "gender": "female",
       "size": "small",
       "url": "imgs/yellow_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "pants",
+      "color": "yellow"
     },
     {
       "gender": "male",
       "size": "medium",
       "url": "imgs/pink_s.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "pink"
     },
     {
       "gender": "female",
       "size": "medium",
       "url": "imgs/pink_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "blue"
     },
     {
       "gender": "female",
       "size": "large",
       "url": "imgs/blue_t.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "blue"
     },
     {
       "gender": "female",
       "size": "small",
       "url": "imgs/blue_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "pants",
+      "color": "blue"
     },
     {
       "gender": "male",
       "size": "medium",
       "url": "imgs/yellow_s.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "yellow"
     },
     {
       "gender": "male",
       "size": "small",
       "url": "imgs/yellow_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "pants",
+      "color": "yellow"
     },
     {
       "gender": "female",
       "size": "medium",
       "url": "imgs/pink_t.png",
-      "price": 10000
+      "price": 10000,
+      "type": "t-shirt",
+      "color": "pink"
     },
     {
       "gender": "male",
       "size": "large",
       "url": "imgs/yellow_s.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "yellow"
     },
     {
       "gender": "female",
       "size": "large",
       "url": "imgs/blue_t.png",
-      "price": 10000
+      "price": 10000,
+      "type": "t-shirt",
+      "color": "blue"
     },
     {
       "gender": "female",
       "size": "small",
       "url": "imgs/blue_p.png",
-      "price": 10000
+      "price": 10000,
+      "type": "pants",
+      "color": "blue"
     },
     {
       "gender": "male",
       "size": "small",
       "url": "imgs/pink_s.png",
-      "price": 10000
+      "price": 10000,
+      "type": "skirt",
+      "color": "pink"
     }
   ]
 }
